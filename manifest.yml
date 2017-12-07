@@ -1,0 +1,11 @@
+---
+applications:
+- name: kariteunrev2
+  command: npm start
+  path: .
+  memory: 128M
+  instances: 1
+  services:
+  - Conversation-59
+  env:
+    NPM_CONFIG_PRODUCTION: false
