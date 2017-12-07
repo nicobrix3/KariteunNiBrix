@@ -6,6 +6,6 @@ applications:
   memory: 128M
   instances: 1
   services:
-  - Conversation-59
+  - Conversation-27
   env:
     NPM_CONFIG_PRODUCTION: false
